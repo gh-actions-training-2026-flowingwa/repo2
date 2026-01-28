@@ -1,0 +1,12 @@
+name: My Workflow
+
+on:
+  push:
+    branches: [$default-branch]
+
+jobs:
+  first_job:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Say hello
+        run: echo "Hello World!"
