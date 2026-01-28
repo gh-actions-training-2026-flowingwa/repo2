@@ -1,6 +1,0 @@
-{
-  "name": "My c# worfkflow template"
-  "description": "Demo purporse"
-  "categories": ["C#"]
-  "filePatterns": ["**.sln"]
-}
